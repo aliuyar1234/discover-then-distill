@@ -1,18 +1,12 @@
-cff-version: 1.2.0
-title: "Discover-Then-Distill: Separating Test-Time Adaptation from Self-Distillation Consolidation"
-message: "If you use this repository, please cite the manuscript release."
+cff-version: 1.1.0
+title: "Discover-Then-Distill: Compute-Matched v2"
+message: "If you use this software, please cite it as below."
 type: software
 authors:
-  - family-names: Uyar
-    given-names: Ali
+  - given-names: Ali
+    family-names: Uyar
+url: "https://github.com/aliuyar1234/discover-then-distill"
 repository-code: "https://github.com/aliuyar1234/discover-then-distill"
-date-released: 2026-02-13
-license: "NOASSERTION"
-preferred-citation:
-  type: report
-  title: "Discover-Then-Distill: Compute-Matched v2"
-  authors:
-    - family-names: Uyar
-      given-names: Ali
-  year: 2026
-  url: "https://github.com/aliuyar1234/discover-then-distill"
+version: "v2.0.0"
+date-released: "2026-02-13"
+license: "Apache-2.0"
