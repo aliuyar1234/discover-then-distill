@@ -1,0 +1,21 @@
+\section{Background}
+
+\subsection{Manifold-Constrained Hyper-Connections (mHC)}
+Our base model is a decoder-only Transformer that expands the residual stream into multiple parallel streams and learns a constrained mixing between them.
+Each block wraps attention and MLP sublayers with three mappings:
+$H^{\mathrm{pre}}$ (aggregation into a working stream),
+$H^{\mathrm{post}}$ (redistribution back to streams), and
+$H^{\mathrm{res}}$ (residual mixing).
+To keep mixing well-conditioned, the residual map is projected via a Sinkhorn--Knopp style normalization.
+
+\subsection{Self-Distillation Fine-Tuning (SDFT)}
+SDFT follows the teacher--student distillation idea \citep{hinton2015distilling} in a continual-learning setting.
+The teacher is an exponential moving average (EMA) copy of the student.
+The student samples on-policy continuations from prompt-only context, while the teacher is queried on the same prefixes under prompt+demonstration conditioning.
+Updates minimize a reverse KL divergence between student and teacher token distributions.
+
+\subsection{Test-Time Discovery Optimization}
+At test time, per-problem adaptation updates only LoRA parameters \citep{hu2022lora}.
+Gradient estimates follow a REINFORCE-style view \citep{williams1992simple}, using either an entropic-utility objective or an expected-reward baseline.
+Archive reuse biases rollouts toward promising intermediate states via a PUCT-inspired score \citep{silver2017mastering}.
+A KL-to-base shaping term regularizes drift from the frozen base policy.

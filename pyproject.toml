@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-mhc-sdft-tttd"
+version = "0.1.0"
+description = "From-scratch LLM blueprint combining mHC, SDFT continual learning, and TTT-Discover."
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.2.0",
+  "sentencepiece>=0.1.99",
+  "numpy>=1.26.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]

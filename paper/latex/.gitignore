@@ -1,0 +1,13 @@
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Local convenience build output (canonical PDFs are named releases)
+main.pdf

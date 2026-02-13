@@ -1,0 +1,120 @@
+{"task_id": "sort_0106", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 47 10 26 67 44 24 25 32", "target": "10 24 25 26 32 44 47 67"}
+{"task_id": "add_0113", "family": "add", "problem": "Compute 6491 + 7284. Output ONLY the integer.", "target": "13775"}
+{"task_id": "rev_0031", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: brnutzzyhalq", "target": "qlahyzztunrb"}
+{"task_id": "rev_0027", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: qfcvufsdquzr", "target": "rzuqdsfuvcfq"}
+{"task_id": "rev_0022", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: qkmigdskzhsv", "target": "vshzksdgimkq"}
+{"task_id": "add_0089", "family": "add", "problem": "Compute 9145 + 9921. Output ONLY the integer.", "target": "19066"}
+{"task_id": "sort_0097", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 46 7 95 81 86 22 29 78", "target": "7 22 29 46 78 81 86 95"}
+{"task_id": "sort_0096", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 90 6 49 4 29 81 10 23", "target": "4 6 10 23 29 49 81 90"}
+{"task_id": "sort_0092", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 55 58 91 42 49 21 42 53", "target": "21 42 42 49 53 55 58 91"}
+{"task_id": "sort_0080", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 43 15 67 31 97 20 8 53", "target": "8 15 20 31 43 53 67 97"}
+{"task_id": "sort_0084", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 15 89 15 48 51 75 59 17", "target": "15 15 17 48 51 59 75 89"}
+{"task_id": "rev_0026", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: vvyixtgcrnif", "target": "finrcgtxiyvv"}
+{"task_id": "add_0117", "family": "add", "problem": "Compute 1396 + 580. Output ONLY the integer.", "target": "1976"}
+{"task_id": "sort_0091", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 93 29 18 96 73 36 24 13", "target": "13 18 24 29 36 73 93 96"}
+{"task_id": "rev_0028", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: tmynijjanywi", "target": "iwynajjinymt"}
+{"task_id": "sort_0103", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 54 87 28 77 50 71 28 58", "target": "28 28 50 54 58 71 77 87"}
+{"task_id": "add_0092", "family": "add", "problem": "Compute 6909 + 7073. Output ONLY the integer.", "target": "13982"}
+{"task_id": "add_0090", "family": "add", "problem": "Compute 2521 + 7309. Output ONLY the integer.", "target": "9830"}
+{"task_id": "rev_0016", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: owettbikzxxm", "target": "mxxzkibttewo"}
+{"task_id": "rev_0010", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: hbahukcblvne", "target": "envlbckuhabh"}
+{"task_id": "add_0087", "family": "add", "problem": "Compute 3038 + 1779. Output ONLY the integer.", "target": "4817"}
+{"task_id": "rev_0020", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: omxdmlpbaixb", "target": "bxiabplmdxmo"}
+{"task_id": "rev_0008", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: vxvvhilvfjal", "target": "lajfvlihvvxv"}
+{"task_id": "sort_0111", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 19 52 27 56 78 9 54 71", "target": "9 19 27 52 54 56 71 78"}
+{"task_id": "rev_0036", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: payigymmnyuu", "target": "uuynmmygiyap"}
+{"task_id": "rev_0004", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: ltseupdtaqtl", "target": "ltqatdpuestl"}
+{"task_id": "add_0091", "family": "add", "problem": "Compute 6533 + 3037. Output ONLY the integer.", "target": "9570"}
+{"task_id": "add_0096", "family": "add", "problem": "Compute 5822 + 7576. Output ONLY the integer.", "target": "13398"}
+{"task_id": "add_0109", "family": "add", "problem": "Compute 1979 + 4424. Output ONLY the integer.", "target": "6403"}
+{"task_id": "sort_0087", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 7 56 38 18 95 63 6 79", "target": "6 7 18 38 56 63 79 95"}
+{"task_id": "rev_0021", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: ivvswyjvygyq", "target": "qygyvjywsvvi"}
+{"task_id": "sort_0104", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 24 43 77 13 77 10 40 41", "target": "10 13 24 40 41 43 77 77"}
+{"task_id": "add_0115", "family": "add", "problem": "Compute 5797 + 4643. Output ONLY the integer.", "target": "10440"}
+{"task_id": "add_0118", "family": "add", "problem": "Compute 1154 + 4300. Output ONLY the integer.", "target": "5454"}
+{"task_id": "add_0119", "family": "add", "problem": "Compute 5007 + 8743. Output ONLY the integer.", "target": "13750"}
+{"task_id": "sort_0117", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 36 94 84 0 94 68 65 54", "target": "0 36 54 65 68 84 94 94"}
+{"task_id": "sort_0107", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 86 93 94 38 39 66 49 32", "target": "32 38 39 49 66 86 93 94"}
+{"task_id": "add_0104", "family": "add", "problem": "Compute 2559 + 6950. Output ONLY the integer.", "target": "9509"}
+{"task_id": "rev_0012", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: nmanirrzxvwo", "target": "owvxzrrinamn"}
+{"task_id": "sort_0095", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 62 49 93 28 25 56 26 75", "target": "25 26 28 49 56 62 75 93"}
+{"task_id": "rev_0002", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: azemefqceygz", "target": "zgyecqfemeza"}
+{"task_id": "rev_0023", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: xrvlfekxasbs", "target": "sbsaxkeflvrx"}
+{"task_id": "sort_0108", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 61 44 91 30 5 39 70 9", "target": "5 9 30 39 44 61 70 91"}
+{"task_id": "sort_0116", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 78 91 12 22 93 53 31 27", "target": "12 22 27 31 53 78 91 93"}
+{"task_id": "rev_0014", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: qxweckhfhazf", "target": "fzahfhkcewxq"}
+{"task_id": "sort_0100", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 83 70 94 55 74 58 62 32", "target": "32 55 58 62 70 74 83 94"}
+{"task_id": "sort_0102", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 20 44 0 37 83 0 17 8", "target": "0 0 8 17 20 37 44 83"}
+{"task_id": "sort_0094", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 40 16 26 23 56 44 49 54", "target": "16 23 26 40 44 49 54 56"}
+{"task_id": "sort_0109", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 1 58 63 92 56 6 52 63", "target": "1 6 52 56 58 63 63 92"}
+{"task_id": "add_0105", "family": "add", "problem": "Compute 7723 + 1516. Output ONLY the integer.", "target": "9239"}
+{"task_id": "add_0114", "family": "add", "problem": "Compute 1671 + 4138. Output ONLY the integer.", "target": "5809"}
+{"task_id": "add_0093", "family": "add", "problem": "Compute 2862 + 4062. Output ONLY the integer.", "target": "6924"}
+{"task_id": "add_0112", "family": "add", "problem": "Compute 8619 + 9529. Output ONLY the integer.", "target": "18148"}
+{"task_id": "add_0103", "family": "add", "problem": "Compute 8932 + 9980. Output ONLY the integer.", "target": "18912"}
+{"task_id": "add_0088", "family": "add", "problem": "Compute 4537 + 1837. Output ONLY the integer.", "target": "6374"}
+{"task_id": "add_0095", "family": "add", "problem": "Compute 8574 + 2335. Output ONLY the integer.", "target": "10909"}
+{"task_id": "rev_0011", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: goneljfukxzx", "target": "xzxkufjlenog"}
+{"task_id": "rev_0013", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: ybsdnmfaqetv", "target": "vteqafmndsby"}
+{"task_id": "rev_0038", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: kampqebcslla", "target": "allscbeqpmak"}
+{"task_id": "sort_0098", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 38 78 11 90 65 96 36 98", "target": "11 36 38 65 78 90 96 98"}
+{"task_id": "rev_0015", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: xzvrfwcntdtu", "target": "utdtncwfrvzx"}
+{"task_id": "add_0107", "family": "add", "problem": "Compute 8908 + 6640. Output ONLY the integer.", "target": "15548"}
+{"task_id": "add_0106", "family": "add", "problem": "Compute 8153 + 3807. Output ONLY the integer.", "target": "11960"}
+{"task_id": "sort_0113", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 35 45 40 55 13 71 36 78", "target": "13 35 36 40 45 55 71 78"}
+{"task_id": "rev_0039", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: cgwdvrpbkakm", "target": "mkakbprvdwgc"}
+{"task_id": "sort_0115", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 59 68 81 33 34 29 2 15", "target": "2 15 29 33 34 59 68 81"}
+{"task_id": "rev_0034", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: oqzzwdgfocnu", "target": "uncofgdwzzqo"}
+{"task_id": "add_0094", "family": "add", "problem": "Compute 7429 + 5576. Output ONLY the integer.", "target": "13005"}
+{"task_id": "add_0086", "family": "add", "problem": "Compute 7715 + 1491. Output ONLY the integer.", "target": "9206"}
+{"task_id": "add_0084", "family": "add", "problem": "Compute 7230 + 3342. Output ONLY the integer.", "target": "10572"}
+{"task_id": "sort_0118", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 6 15 49 82 34 15 94 72", "target": "6 15 15 34 49 72 82 94"}
+{"task_id": "sort_0105", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 68 58 41 32 3 66 5 24", "target": "3 5 24 32 41 58 66 68"}
+{"task_id": "sort_0081", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 37 36 66 17 73 66 80 26", "target": "17 26 36 37 66 66 73 80"}
+{"task_id": "rev_0024", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: elljujkpzmtn", "target": "ntmzpkjujlle"}
+{"task_id": "add_0082", "family": "add", "problem": "Compute 6694 + 138. Output ONLY the integer.", "target": "6832"}
+{"task_id": "add_0099", "family": "add", "problem": "Compute 30 + 7357. Output ONLY the integer.", "target": "7387"}
+{"task_id": "rev_0032", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: fvguluwpaxxh", "target": "hxxapwulugvf"}
+{"task_id": "rev_0003", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: ypsywghxehym", "target": "myhexhgwyspy"}
+{"task_id": "add_0080", "family": "add", "problem": "Compute 6049 + 8670. Output ONLY the integer.", "target": "14719"}
+{"task_id": "sort_0114", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 69 25 91 37 99 56 65 77", "target": "25 37 56 65 69 77 91 99"}
+{"task_id": "rev_0035", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: miinyyltkcja", "target": "ajcktlyyniim"}
+{"task_id": "add_0081", "family": "add", "problem": "Compute 947 + 6167. Output ONLY the integer.", "target": "7114"}
+{"task_id": "rev_0005", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: pojahrufvpzx", "target": "xzpvfurhajop"}
+{"task_id": "sort_0089", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 87 10 87 94 85 50 0 46", "target": "0 10 46 50 85 87 87 94"}
+{"task_id": "add_0097", "family": "add", "problem": "Compute 1417 + 7918. Output ONLY the integer.", "target": "9335"}
+{"task_id": "sort_0112", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 96 50 5 23 31 62 28 16", "target": "5 16 23 28 31 50 62 96"}
+{"task_id": "sort_0086", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 27 61 62 88 64 40 63 83", "target": "27 40 61 62 63 64 83 88"}
+{"task_id": "sort_0099", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 45 52 58 6 80 89 66 85", "target": "6 45 52 58 66 80 85 89"}
+{"task_id": "sort_0093", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 82 87 55 18 57 90 18 67", "target": "18 18 55 57 67 82 87 90"}
+{"task_id": "rev_0030", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: ayqezvwzsmlo", "target": "olmszwvzeqya"}
+{"task_id": "rev_0018", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: lfxymkizpmaj", "target": "jampzikmyxfl"}
+{"task_id": "sort_0085", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 71 85 38 45 80 60 95 53", "target": "38 45 53 60 71 80 85 95"}
+{"task_id": "rev_0017", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: aubpcljveohq", "target": "qhoevjlcpbua"}
+{"task_id": "add_0101", "family": "add", "problem": "Compute 3583 + 4891. Output ONLY the integer.", "target": "8474"}
+{"task_id": "rev_0025", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: fazesboekaxp", "target": "pxakeobsezaf"}
+{"task_id": "add_0116", "family": "add", "problem": "Compute 3211 + 9755. Output ONLY the integer.", "target": "12966"}
+{"task_id": "rev_0029", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: irqrkkgwznze", "target": "eznzwgkkrqri"}
+{"task_id": "add_0110", "family": "add", "problem": "Compute 664 + 4. Output ONLY the integer.", "target": "668"}
+{"task_id": "add_0108", "family": "add", "problem": "Compute 4588 + 354. Output ONLY the integer.", "target": "4942"}
+{"task_id": "add_0085", "family": "add", "problem": "Compute 6088 + 4805. Output ONLY the integer.", "target": "10893"}
+{"task_id": "sort_0090", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 5 14 79 0 34 81 89 37", "target": "0 5 14 34 37 79 81 89"}
+{"task_id": "rev_0006", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: prkwcietmwgk", "target": "kgwmteicwkrp"}
+{"task_id": "rev_0000", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: hxhcqjvkhlup", "target": "pulhkvjqchxh"}
+{"task_id": "sort_0101", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 90 60 27 43 34 5 5 6", "target": "5 5 6 27 34 43 60 90"}
+{"task_id": "add_0083", "family": "add", "problem": "Compute 6835 + 5253. Output ONLY the integer.", "target": "12088"}
+{"task_id": "sort_0082", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 68 13 52 81 69 51 94 99", "target": "13 51 52 68 69 81 94 99"}
+{"task_id": "sort_0119", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 45 29 86 91 90 69 84 36", "target": "29 36 45 69 84 86 90 91"}
+{"task_id": "add_0111", "family": "add", "problem": "Compute 4203 + 6527. Output ONLY the integer.", "target": "10730"}
+{"task_id": "rev_0007", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: zjmbgbkxxhko", "target": "okhxxkbgbmjz"}
+{"task_id": "rev_0001", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: jsfezarqklsu", "target": "uslkqrazefsj"}
+{"task_id": "rev_0033", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: shifyncsohxw", "target": "wxhoscnyfihs"}
+{"task_id": "rev_0019", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: qjrpbyrsrivb", "target": "bvirsrybprjq"}
+{"task_id": "add_0102", "family": "add", "problem": "Compute 1875 + 4934. Output ONLY the integer.", "target": "6809"}
+{"task_id": "rev_0037", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: vmwbsolseswi", "target": "iwseslosbwmv"}
+{"task_id": "add_0098", "family": "add", "problem": "Compute 3336 + 4828. Output ONLY the integer.", "target": "8164"}
+{"task_id": "rev_0009", "family": "rev", "problem": "Reverse this string. Output ONLY the reversed string: srbxuelapuba", "target": "abupaleuxbrs"}
+{"task_id": "sort_0110", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 58 56 15 10 10 30 12 97", "target": "10 10 12 15 30 56 58 97"}
+{"task_id": "add_0100", "family": "add", "problem": "Compute 7569 + 127. Output ONLY the integer.", "target": "7696"}
+{"task_id": "sort_0083", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 35 37 56 47 72 80 17 20", "target": "17 20 35 37 47 56 72 80"}
+{"task_id": "sort_0088", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 27 3 45 60 50 1 67 8", "target": "1 3 8 27 45 50 60 67"}

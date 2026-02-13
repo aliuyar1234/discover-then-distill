@@ -1,0 +1,85 @@
+\section{Results}
+
+\subsection{Main Held-out Comparison}
+\noindent\textbf{At-a-glance:}
+under compute-matched budgets ($N=\Nbudget$ samples per task), mean held-out reward differences between conditions are small and the bootstrap CIs overlap zero, while main TTT improves exact-match by $+2.1$ points.
+
+\Cref{tab:main-results} reports the finalized main comparison on \nheldout{} held-out tasks (two seeds where applicable).
+Mean reward differences are modest and uncertainty intervals overlap zero.
+Because phases A/B were completed before the C-phase throughput tweak, this separation affects runtime accounting only and not the reported held-out outcomes.
+
+\begin{table}[t]
+  \centering
+  \caption{Main held-out comparison (\nheldout{} tasks; two seeds where applicable). $\Delta$ columns are measured against base best-of-$N$. Bootstrap CIs use 5{,}000 task-resamples per condition.}
+  \label{tab:main-results}
+  \begin{tabular}{l S[table-format=1.4] S[table-format=2.1] S[table-format=+1.4] l}
+    \toprule
+    Condition & {Mean reward} & {\EM~(\%)} & {$\Delta$ reward} & {95\% CI} \\
+    \midrule
+    Base best-of-$N$ & 0.8436 & 30.8 & {--} & {--} \\
+    Main TTT (held-out) & 0.8396 & 32.9 & -0.0040 & {$[-0.0289,\;0.0215]$} \\
+    Post-SDFT best-of-$N$ & 0.8288 & 31.2 & -0.0148 & {$[-0.0400,\;0.0108]$} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{\figroot/F2_reward_vs_steps.pdf}
+  \caption{\textbf{Discovery dynamics and main comparison (\profile).}
+  \textbf{Panel A:} mean best-reward trajectories across TTT steps for the main condition (seed 0/1) and ablations (seed 0).
+  \textbf{Panel B:} held-out mean reward (error bars: SEM over tasks and seeds) with exact-match annotations.
+  }
+  \label{fig:f2}
+\end{figure}
+
+\subsection{Ablation Effects}
+\Cref{tab:ablations} summarizes the focused ablation set (seed 0) relative to the main TTT seed 0.
+In this profile, disabling reuse helps slightly, while removing KL shaping or replacing the entropic objective with expected-reward updates decreases both mean reward and \EM.
+
+\begin{table}[t]
+  \centering
+  \caption{Held-out ablations (seed 0), relative to main TTT seed 0.}
+  \label{tab:ablations}
+  \begin{tabular}{l S[table-format=1.4] S[table-format=2.1] S[table-format=+1.4]}
+    \toprule
+    Condition & {Mean reward} & {\EM~(\%)} & {$\Delta$ reward} \\
+    \midrule
+    Main TTT (entropic, full) & 0.8468 & 33.3 & 0.0000 \\
+    Reuse off & 0.8571 & 38.3 & +0.0103 \\
+    Adaptive-$\beta$ off & 0.8402 & 32.5 & -0.0066 \\
+    KL shaping off & 0.8337 & 27.5 & -0.0132 \\
+    Expected objective & 0.8310 & 25.0 & -0.0158 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Consolidation Yield and Retention}
+Train-side discovery produces demonstrations by filtering train tasks at reward threshold \sdftminreward.
+In \profile{}, this yields 38 demonstrations from \ntrain{} train tasks (23.75\% keep rate).
+After SDFT consolidation (\sdftsteps{} steps), retention remains stable with improved validation perplexity (\(\Delta\)PPL $=-1.321$).
+However, held-out reward does not improve relative to base best-of-$N$ in this compute-matched profile.
+Task-level shifts are mixed: 40.8\% of held-out tasks improve under TTT relative to base, while 30.8\% improve post-SDFT relative to base; both median shifts are 0.0.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{\figroot/F3_gain_vs_retention.pdf}
+  \caption{\textbf{Gain--retention diagnostics.}
+  \textbf{Panel A:} task-level reward shifts (TTT and post-SDFT relative to base), showing the distribution over tasks with mean markers (paired by task).
+  \textbf{Panel B:} family-wise post-SDFT shift (ADD, SORT, REV) and the retention perplexity change.
+  }
+  \label{fig:f3}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Summary of Findings}
+The completed campaign validates the full orchestration pipeline and exposes a clear diagnostic regime, but it does not establish a mean-reward gain for TTT or for consolidation under \profile{}.
+The evidence in this run instead supports three narrower statements:
+\begin{itemize}
+  \item \textbf{TTT improves exact match modestly} without improving mean reward over compute-matched best-of-$N$.
+  \item \textbf{Objective and regularization dominate outcomes} at this budget: ablations span mean reward from 0.8571 (reuse off) to 0.8310 (expected objective).
+  \item \textbf{Consolidation is stability-oriented here:} retention improves slightly in perplexity, but held-out reward shifts are mixed and family-dependent.
+\end{itemize}
+
+\FloatBarrier

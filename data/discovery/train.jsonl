@@ -1,0 +1,160 @@
+{"task_id": "add_0061", "family": "add", "problem": "Compute 6981 + 1018. Output ONLY the integer.", "target": "7999"}
+{"task_id": "sort_0074", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 70 81 41 23 75 10 13 68", "target": "10 13 23 41 68 70 75 81"}
+{"task_id": "sort_0020", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 14 32 17 83 66 83 82 44", "target": "14 17 32 44 66 82 83 83"}
+{"task_id": "sort_0027", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 74 37 46 50 70 16 37 14", "target": "14 16 37 37 46 50 70 74"}
+{"task_id": "sort_0015", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 6 53 24 70 81 10 92 16", "target": "6 10 16 24 53 70 81 92"}
+{"task_id": "add_0031", "family": "add", "problem": "Compute 9031 + 4769. Output ONLY the integer.", "target": "13800"}
+{"task_id": "sort_0004", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 85 22 1 60 87 52 72 65", "target": "1 22 52 60 65 72 85 87"}
+{"task_id": "sort_0009", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 39 49 95 53 83 10 0 76", "target": "0 10 39 49 53 76 83 95"}
+{"task_id": "sort_0033", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 10 25 95 28 7 49 1 12", "target": "1 7 10 12 25 28 49 95"}
+{"task_id": "sort_0046", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 97 57 42 20 19 83 58 47", "target": "19 20 42 47 57 58 83 97"}
+{"task_id": "sort_0068", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 32 10 45 9 15 45 88 3", "target": "3 9 10 15 32 45 45 88"}
+{"task_id": "add_0018", "family": "add", "problem": "Compute 4267 + 1020. Output ONLY the integer.", "target": "5287"}
+{"task_id": "add_0056", "family": "add", "problem": "Compute 5493 + 3119. Output ONLY the integer.", "target": "8612"}
+{"task_id": "sort_0066", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 53 8 12 53 99 19 93 3", "target": "3 8 12 19 53 53 93 99"}
+{"task_id": "add_0027", "family": "add", "problem": "Compute 7339 + 1494. Output ONLY the integer.", "target": "8833"}
+{"task_id": "add_0008", "family": "add", "problem": "Compute 1553 + 4104. Output ONLY the integer.", "target": "5657"}
+{"task_id": "sort_0069", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 44 44 22 1 29 46 9 76", "target": "1 9 22 29 44 44 46 76"}
+{"task_id": "sort_0007", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 69 35 17 30 97 61 45 78", "target": "17 30 35 45 61 69 78 97"}
+{"task_id": "add_0033", "family": "add", "problem": "Compute 5451 + 8852. Output ONLY the integer.", "target": "14303"}
+{"task_id": "add_0073", "family": "add", "problem": "Compute 3030 + 2029. Output ONLY the integer.", "target": "5059"}
+{"task_id": "sort_0051", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 72 32 42 8 63 33 38 98", "target": "8 32 33 38 42 63 72 98"}
+{"task_id": "add_0079", "family": "add", "problem": "Compute 1179 + 4932. Output ONLY the integer.", "target": "6111"}
+{"task_id": "add_0050", "family": "add", "problem": "Compute 9663 + 6871. Output ONLY the integer.", "target": "16534"}
+{"task_id": "add_0075", "family": "add", "problem": "Compute 1000 + 373. Output ONLY the integer.", "target": "1373"}
+{"task_id": "sort_0028", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 61 93 30 6 39 22 66 93", "target": "6 22 30 39 61 66 93 93"}
+{"task_id": "add_0014", "family": "add", "problem": "Compute 5796 + 7113. Output ONLY the integer.", "target": "12909"}
+{"task_id": "sort_0022", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 33 71 40 46 72 5 95 89", "target": "5 33 40 46 71 72 89 95"}
+{"task_id": "sort_0011", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 48 90 86 72 53 4 51 89", "target": "4 48 51 53 72 86 89 90"}
+{"task_id": "sort_0026", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 43 99 79 4 5 34 20 19", "target": "4 5 19 20 34 43 79 99"}
+{"task_id": "sort_0067", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 57 55 87 53 3 63 41 92", "target": "3 41 53 55 57 63 87 92"}
+{"task_id": "sort_0013", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 8 33 89 20 57 67 62 71", "target": "8 20 33 57 62 67 71 89"}
+{"task_id": "add_0025", "family": "add", "problem": "Compute 3632 + 3909. Output ONLY the integer.", "target": "7541"}
+{"task_id": "add_0063", "family": "add", "problem": "Compute 3584 + 741. Output ONLY the integer.", "target": "4325"}
+{"task_id": "add_0035", "family": "add", "problem": "Compute 8965 + 9627. Output ONLY the integer.", "target": "18592"}
+{"task_id": "sort_0059", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 59 78 80 43 83 15 87 91", "target": "15 43 59 78 80 83 87 91"}
+{"task_id": "sort_0056", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 60 99 19 2 4 76 79 16", "target": "2 4 16 19 60 76 79 99"}
+{"task_id": "add_0068", "family": "add", "problem": "Compute 9436 + 1961. Output ONLY the integer.", "target": "11397"}
+{"task_id": "sort_0001", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 12 89 50 25 33 45 93 60", "target": "12 25 33 45 50 60 89 93"}
+{"task_id": "add_0055", "family": "add", "problem": "Compute 7969 + 9618. Output ONLY the integer.", "target": "17587"}
+{"task_id": "sort_0018", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 15 77 83 25 38 35 88 23", "target": "15 23 25 35 38 77 83 88"}
+{"task_id": "sort_0017", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 91 96 0 86 67 78 12 24", "target": "0 12 24 67 78 86 91 96"}
+{"task_id": "add_0012", "family": "add", "problem": "Compute 5409 + 7735. Output ONLY the integer.", "target": "13144"}
+{"task_id": "sort_0054", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 62 77 91 10 86 89 19 45", "target": "10 19 45 62 77 86 89 91"}
+{"task_id": "add_0047", "family": "add", "problem": "Compute 6410 + 8594. Output ONLY the integer.", "target": "15004"}
+{"task_id": "add_0001", "family": "add", "problem": "Compute 663 + 4242. Output ONLY the integer.", "target": "4905"}
+{"task_id": "sort_0063", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 3 66 85 72 73 27 29 11", "target": "3 11 27 29 66 72 73 85"}
+{"task_id": "add_0062", "family": "add", "problem": "Compute 1648 + 2397. Output ONLY the integer.", "target": "4045"}
+{"task_id": "add_0029", "family": "add", "problem": "Compute 8322 + 8016. Output ONLY the integer.", "target": "16338"}
+{"task_id": "sort_0076", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 65 31 30 96 23 37 47 53", "target": "23 30 31 37 47 53 65 96"}
+{"task_id": "sort_0045", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 66 5 8 28 16 5 38 1", "target": "1 5 5 8 16 28 38 66"}
+{"task_id": "sort_0005", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 39 83 45 49 84 32 19 71", "target": "19 32 39 45 49 71 83 84"}
+{"task_id": "sort_0042", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 25 69 78 28 1 43 90 95", "target": "1 25 28 43 69 78 90 95"}
+{"task_id": "sort_0031", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 89 63 54 4 38 42 94 87", "target": "4 38 42 54 63 87 89 94"}
+{"task_id": "sort_0055", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 52 4 78 59 49 58 6 12", "target": "4 6 12 49 52 58 59 78"}
+{"task_id": "add_0038", "family": "add", "problem": "Compute 6306 + 5194. Output ONLY the integer.", "target": "11500"}
+{"task_id": "sort_0041", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 66 63 86 41 63 63 81 85", "target": "41 63 63 63 66 81 85 86"}
+{"task_id": "add_0028", "family": "add", "problem": "Compute 1318 + 5243. Output ONLY the integer.", "target": "6561"}
+{"task_id": "add_0003", "family": "add", "problem": "Compute 6634 + 4969. Output ONLY the integer.", "target": "11603"}
+{"task_id": "add_0026", "family": "add", "problem": "Compute 2334 + 8896. Output ONLY the integer.", "target": "11230"}
+{"task_id": "sort_0038", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 50 32 26 82 5 27 79 18", "target": "5 18 26 27 32 50 79 82"}
+{"task_id": "add_0059", "family": "add", "problem": "Compute 3612 + 6095. Output ONLY the integer.", "target": "9707"}
+{"task_id": "add_0053", "family": "add", "problem": "Compute 5855 + 1349. Output ONLY the integer.", "target": "7204"}
+{"task_id": "sort_0025", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 17 19 34 42 43 47 91 11", "target": "11 17 19 34 42 43 47 91"}
+{"task_id": "sort_0006", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 88 1 58 94 10 42 94 5", "target": "1 5 10 42 58 88 94 94"}
+{"task_id": "sort_0058", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 49 99 99 62 14 7 78 89", "target": "7 14 49 62 78 89 99 99"}
+{"task_id": "add_0006", "family": "add", "problem": "Compute 8268 + 2281. Output ONLY the integer.", "target": "10549"}
+{"task_id": "add_0049", "family": "add", "problem": "Compute 3858 + 3525. Output ONLY the integer.", "target": "7383"}
+{"task_id": "sort_0048", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 66 97 76 9 95 54 96 26", "target": "9 26 54 66 76 95 96 97"}
+{"task_id": "sort_0049", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 37 68 76 53 61 49 77 75", "target": "37 49 53 61 68 75 76 77"}
+{"task_id": "add_0052", "family": "add", "problem": "Compute 7382 + 8071. Output ONLY the integer.", "target": "15453"}
+{"task_id": "add_0005", "family": "add", "problem": "Compute 9558 + 3578. Output ONLY the integer.", "target": "13136"}
+{"task_id": "sort_0032", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 19 21 80 72 48 81 11 8", "target": "8 11 19 21 48 72 80 81"}
+{"task_id": "sort_0012", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 72 53 98 84 90 5 21 57", "target": "5 21 53 57 72 84 90 98"}
+{"task_id": "add_0076", "family": "add", "problem": "Compute 8916 + 6973. Output ONLY the integer.", "target": "15889"}
+{"task_id": "add_0016", "family": "add", "problem": "Compute 9052 + 7815. Output ONLY the integer.", "target": "16867"}
+{"task_id": "add_0023", "family": "add", "problem": "Compute 5328 + 1031. Output ONLY the integer.", "target": "6359"}
+{"task_id": "add_0002", "family": "add", "problem": "Compute 8376 + 7961. Output ONLY the integer.", "target": "16337"}
+{"task_id": "sort_0035", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 86 27 54 10 47 28 33 74", "target": "10 27 28 33 47 54 74 86"}
+{"task_id": "sort_0061", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 66 24 4 50 56 47 96 24", "target": "4 24 24 47 50 56 66 96"}
+{"task_id": "sort_0070", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 18 26 0 26 84 86 93 15", "target": "0 15 18 26 26 84 86 93"}
+{"task_id": "sort_0060", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 79 37 16 49 37 95 87 15", "target": "15 16 37 37 49 79 87 95"}
+{"task_id": "sort_0039", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 13 25 58 48 46 69 19 13", "target": "13 13 19 25 46 48 58 69"}
+{"task_id": "add_0048", "family": "add", "problem": "Compute 4515 + 8549. Output ONLY the integer.", "target": "13064"}
+{"task_id": "sort_0030", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 71 61 60 43 43 15 61 14", "target": "14 15 43 43 60 61 61 71"}
+{"task_id": "add_0057", "family": "add", "problem": "Compute 3981 + 265. Output ONLY the integer.", "target": "4246"}
+{"task_id": "add_0072", "family": "add", "problem": "Compute 354 + 3188. Output ONLY the integer.", "target": "3542"}
+{"task_id": "add_0045", "family": "add", "problem": "Compute 2450 + 633. Output ONLY the integer.", "target": "3083"}
+{"task_id": "add_0077", "family": "add", "problem": "Compute 1662 + 4258. Output ONLY the integer.", "target": "5920"}
+{"task_id": "add_0054", "family": "add", "problem": "Compute 5313 + 1889. Output ONLY the integer.", "target": "7202"}
+{"task_id": "add_0013", "family": "add", "problem": "Compute 9171 + 1649. Output ONLY the integer.", "target": "10820"}
+{"task_id": "sort_0014", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 77 96 0 4 63 41 39 59", "target": "0 4 39 41 59 63 77 96"}
+{"task_id": "add_0000", "family": "add", "problem": "Compute 6311 + 6890. Output ONLY the integer.", "target": "13201"}
+{"task_id": "add_0043", "family": "add", "problem": "Compute 7807 + 1131. Output ONLY the integer.", "target": "8938"}
+{"task_id": "sort_0037", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 3 67 57 96 86 25 15 63", "target": "3 15 25 57 63 67 86 96"}
+{"task_id": "add_0010", "family": "add", "problem": "Compute 2407 + 5081. Output ONLY the integer.", "target": "7488"}
+{"task_id": "add_0069", "family": "add", "problem": "Compute 6409 + 1499. Output ONLY the integer.", "target": "7908"}
+{"task_id": "add_0007", "family": "add", "problem": "Compute 4617 + 2289. Output ONLY the integer.", "target": "6906"}
+{"task_id": "add_0071", "family": "add", "problem": "Compute 596 + 9920. Output ONLY the integer.", "target": "10516"}
+{"task_id": "add_0060", "family": "add", "problem": "Compute 2793 + 5448. Output ONLY the integer.", "target": "8241"}
+{"task_id": "add_0017", "family": "add", "problem": "Compute 7253 + 8541. Output ONLY the integer.", "target": "15794"}
+{"task_id": "sort_0052", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 52 49 49 7 20 82 16 30", "target": "7 16 20 30 49 49 52 82"}
+{"task_id": "add_0042", "family": "add", "problem": "Compute 540 + 4260. Output ONLY the integer.", "target": "4800"}
+{"task_id": "sort_0010", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 24 89 42 20 30 28 81 57", "target": "20 24 28 30 42 57 81 89"}
+{"task_id": "sort_0057", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 80 41 13 89 70 83 44 24", "target": "13 24 41 44 70 80 83 89"}
+{"task_id": "sort_0071", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 95 0 37 47 88 3 77 29", "target": "0 3 29 37 47 77 88 95"}
+{"task_id": "sort_0029", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 9 38 51 42 38 53 13 12", "target": "9 12 13 38 38 42 51 53"}
+{"task_id": "sort_0073", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 16 3 26 46 42 60 37 37", "target": "3 16 26 37 37 42 46 60"}
+{"task_id": "add_0030", "family": "add", "problem": "Compute 1786 + 4938. Output ONLY the integer.", "target": "6724"}
+{"task_id": "sort_0075", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 74 39 20 48 18 16 28 40", "target": "16 18 20 28 39 40 48 74"}
+{"task_id": "add_0058", "family": "add", "problem": "Compute 4440 + 1919. Output ONLY the integer.", "target": "6359"}
+{"task_id": "sort_0021", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 14 19 35 2 5 5 26 87", "target": "2 5 5 14 19 26 35 87"}
+{"task_id": "sort_0040", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 76 62 18 72 51 81 87 54", "target": "18 51 54 62 72 76 81 87"}
+{"task_id": "add_0024", "family": "add", "problem": "Compute 3130 + 9298. Output ONLY the integer.", "target": "12428"}
+{"task_id": "add_0009", "family": "add", "problem": "Compute 8725 + 9861. Output ONLY the integer.", "target": "18586"}
+{"task_id": "sort_0077", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 84 5 16 76 2 50 9 89", "target": "2 5 9 16 50 76 84 89"}
+{"task_id": "add_0040", "family": "add", "problem": "Compute 4756 + 3012. Output ONLY the integer.", "target": "7768"}
+{"task_id": "sort_0016", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 1 51 86 53 40 0 27 1", "target": "0 1 1 27 40 51 53 86"}
+{"task_id": "sort_0047", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 64 48 67 64 4 73 11 86", "target": "4 11 48 64 64 67 73 86"}
+{"task_id": "sort_0044", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 48 74 37 91 90 60 8 10", "target": "8 10 37 48 60 74 90 91"}
+{"task_id": "add_0065", "family": "add", "problem": "Compute 9865 + 1212. Output ONLY the integer.", "target": "11077"}
+{"task_id": "sort_0002", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 72 21 89 86 26 98 7 86", "target": "7 21 26 72 86 86 89 98"}
+{"task_id": "add_0022", "family": "add", "problem": "Compute 5458 + 3996. Output ONLY the integer.", "target": "9454"}
+{"task_id": "add_0074", "family": "add", "problem": "Compute 7851 + 3450. Output ONLY the integer.", "target": "11301"}
+{"task_id": "sort_0000", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 44 55 23 7 64 59 5 76", "target": "5 7 23 44 55 59 64 76"}
+{"task_id": "add_0004", "family": "add", "problem": "Compute 7808 + 5866. Output ONLY the integer.", "target": "13674"}
+{"task_id": "add_0019", "family": "add", "problem": "Compute 8989 + 230. Output ONLY the integer.", "target": "9219"}
+{"task_id": "sort_0078", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 9 16 53 38 70 53 94 18", "target": "9 16 18 38 53 53 70 94"}
+{"task_id": "sort_0034", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 50 71 66 37 57 62 74 91", "target": "37 50 57 62 66 71 74 91"}
+{"task_id": "add_0039", "family": "add", "problem": "Compute 9431 + 3966. Output ONLY the integer.", "target": "13397"}
+{"task_id": "sort_0036", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 99 21 55 24 45 14 8 89", "target": "8 14 21 24 45 55 89 99"}
+{"task_id": "sort_0064", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 99 80 99 64 89 67 53 64", "target": "53 64 64 67 80 89 99 99"}
+{"task_id": "add_0064", "family": "add", "problem": "Compute 9402 + 8752. Output ONLY the integer.", "target": "18154"}
+{"task_id": "sort_0003", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 20 20 43 67 32 15 76 56", "target": "15 20 20 32 43 56 67 76"}
+{"task_id": "add_0066", "family": "add", "problem": "Compute 437 + 2038. Output ONLY the integer.", "target": "2475"}
+{"task_id": "add_0051", "family": "add", "problem": "Compute 9497 + 4509. Output ONLY the integer.", "target": "14006"}
+{"task_id": "add_0067", "family": "add", "problem": "Compute 3088 + 9934. Output ONLY the integer.", "target": "13022"}
+{"task_id": "add_0044", "family": "add", "problem": "Compute 1471 + 2133. Output ONLY the integer.", "target": "3604"}
+{"task_id": "add_0020", "family": "add", "problem": "Compute 1528 + 6534. Output ONLY the integer.", "target": "8062"}
+{"task_id": "add_0021", "family": "add", "problem": "Compute 18 + 8086. Output ONLY the integer.", "target": "8104"}
+{"task_id": "sort_0008", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 36 86 45 75 81 79 16 91", "target": "16 36 45 75 79 81 86 91"}
+{"task_id": "add_0046", "family": "add", "problem": "Compute 1314 + 8857. Output ONLY the integer.", "target": "10171"}
+{"task_id": "sort_0019", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 12 60 50 80 10 2 35 57", "target": "2 10 12 35 50 57 60 80"}
+{"task_id": "sort_0062", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 58 45 80 9 5 5 62 32", "target": "5 5 9 32 45 58 62 80"}
+{"task_id": "sort_0065", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 39 14 18 54 72 54 10 13", "target": "10 13 14 18 39 54 54 72"}
+{"task_id": "sort_0053", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 36 93 42 7 4 61 53 18", "target": "4 7 18 36 42 53 61 93"}
+{"task_id": "add_0011", "family": "add", "problem": "Compute 1618 + 1208. Output ONLY the integer.", "target": "2826"}
+{"task_id": "sort_0043", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 40 41 4 67 18 32 77 19", "target": "4 18 19 32 40 41 67 77"}
+{"task_id": "add_0034", "family": "add", "problem": "Compute 3329 + 9882. Output ONLY the integer.", "target": "13211"}
+{"task_id": "sort_0079", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 75 54 38 81 45 10 31 56", "target": "10 31 38 45 54 56 75 81"}
+{"task_id": "add_0041", "family": "add", "problem": "Compute 3102 + 3059. Output ONLY the integer.", "target": "6161"}
+{"task_id": "add_0015", "family": "add", "problem": "Compute 5180 + 3350. Output ONLY the integer.", "target": "8530"}
+{"task_id": "sort_0050", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 29 2 84 0 94 23 38 64", "target": "0 2 23 29 38 64 84 94"}
+{"task_id": "add_0078", "family": "add", "problem": "Compute 1146 + 3618. Output ONLY the integer.", "target": "4764"}
+{"task_id": "sort_0023", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 77 83 63 91 82 58 81 55", "target": "55 58 63 77 81 82 83 91"}
+{"task_id": "add_0037", "family": "add", "problem": "Compute 1501 + 9769. Output ONLY the integer.", "target": "11270"}
+{"task_id": "sort_0072", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 18 23 58 14 61 44 90 33", "target": "14 18 23 33 44 58 61 90"}
+{"task_id": "add_0036", "family": "add", "problem": "Compute 4712 + 7290. Output ONLY the integer.", "target": "12002"}
+{"task_id": "sort_0024", "family": "sort", "problem": "Sort these integers in ascending order. Output ONLY numbers separated by spaces: 47 68 22 26 48 75 37 1", "target": "1 22 26 37 47 48 68 75"}
+{"task_id": "add_0070", "family": "add", "problem": "Compute 6064 + 1901. Output ONLY the integer.", "target": "7965"}
+{"task_id": "add_0032", "family": "add", "problem": "Compute 2044 + 8969. Output ONLY the integer.", "target": "11013"}

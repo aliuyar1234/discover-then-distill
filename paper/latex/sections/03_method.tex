@@ -1,0 +1,60 @@
+\section{Method}
+
+\subsection{Update Policy: Discover--Then--Distill}
+We enforce a separation between \emph{ephemeral} per-instance adaptation and \emph{persistent} model updates.
+The policy is:
+\begin{enumerate}
+  \item pretrain a base checkpoint $\baseckpt$,
+  \item solve each discovery instance with test-time training that updates only LoRA parameters (the adapter $\loraDelta$),
+  \item convert high-reward discovered solutions into demonstrations,
+  \item consolidate into a continual checkpoint $\contckpt$ using self-distillation.
+\end{enumerate}
+No test-time LoRA update is directly merged into the base checkpoint; only the distillation stage produces a new persistent checkpoint.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{\figroot/F1_pipeline.pdf}
+  \caption{\textbf{Discover--Then--Distill pipeline.}
+  The base checkpoint $\baseckpt$ is frozen during per-instance discovery; LoRA adapters $\loraDelta$ are saved as ephemeral artifacts.
+  Discovered high-reward solutions are converted into \{prompt, demonstration\} pairs and consolidated into $\contckpt$ via SDFT.
+  }
+  \label{fig:pipeline}
+\end{figure}
+
+\subsection{Model Architecture (mHC Transformer)}
+The base model is an mHC Transformer language model.
+Given residual streams $X \in \mathbb{R}^{B \times T \times n \times C}$, each mHC residual wrapper computes
+\begin{align}
+X_{\text{next}} &= H^{\mathrm{res}} X + H^{\mathrm{post}}\, F\bigl(H^{\mathrm{pre}} X\bigr),
+\end{align}
+where $F$ is an attention or MLP sublayer.
+The residual mixing map $H^{\mathrm{res}}$ is projected to be approximately doubly stochastic (Sinkhorn--Knopp), which keeps stream mixing well-conditioned.
+Final logits are produced from a mean stream readout followed by normalization and a tied output head.
+
+\subsection{Test-Time Discovery (TTT-Discover)}
+Each discovery instance provides a prompt and a target string.
+Candidate model outputs are scored by a continuous, verifiable reward in $[0,1]$ with reward $=1$ for an exact match.
+
+For a fixed compute budget, we perform $\tttsteps$ test-time steps with $\rollouts$ sampled rollouts per step.
+At each step, the algorithm (i) optionally selects a start state from an archive of previously discovered states (reuse), (ii) samples rollouts from the current policy,
+(iii) computes an advantage from the observed rewards, and (iv) updates only LoRA parameters by minimizing a REINFORCE-style loss \citep{williams1992simple}.
+
+\paragraph{Objective variants.}
+We support two advantage constructions.
+The default \textbf{entropic} objective uses an entropic-utility weighting with an optional adaptive temperature $\beta$.
+The \textbf{expected} objective uses centered rewards (an expected-reward baseline).
+Both variants optionally include a KL-to-base shaping term that discourages drift from the frozen base policy:
+\begin{align}
+A &= A_{\text{obj}} - \lambda\,\Bigl(\log \pi_{\theta}(a\mid s) - \log \pi_{\baseckpt}(a\mid s)\Bigr),
+\end{align}
+and the update minimizes $-\mathbb{E}[A\,\log \pi_{\theta}(a\mid s)]$ with gradients applied only to LoRA parameters.
+
+\subsection{Consolidation via Self-Distillation (SDFT)}
+We form a distillation dataset by filtering train-side discoveries and exporting \{\texttt{prompt}, \texttt{demonstration}\} pairs.
+SDFT trains a student model to match an EMA teacher under demonstration-conditioned context.
+Concretely, the student samples on-policy continuations from prompt-only context, while the teacher is queried on the same prefixes using prompt+demonstration conditioning.
+The student is updated by minimizing a reverse-KL distillation loss \citep{hinton2015distilling}, and the teacher is updated with EMA.
+
+\paragraph{Replay and regression gates.}
+The implementation supports (i) replay-mixing (sampling a fraction of updates from a replay buffer) and (ii) optional regression gates based on validation perplexity and a small probe suite.
+In the finalized profile reported here, replay is enabled (see \Cref{tab:profile}) and gating is disabled (\texttt{gate\_every}=0 in the run config), so no gate-triggered rollbacks occur in this campaign.

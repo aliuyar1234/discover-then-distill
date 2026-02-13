@@ -1,0 +1,33 @@
+\section{Introduction}
+
+Many language-model applications have access to fast, verifiable feedback at inference time
+(e.g., a unit test, a target string, or a task-specific reward).
+This motivates \emph{test-time optimization}: spend extra compute on the \emph{current} instance to obtain a better answer.
+The operational tension is that aggressive per-instance updates can undermine a stable base checkpoint,
+creating drift and unpredictable behavior on future tasks.
+
+We study a strict separation policy intended to resolve this tension:
+\begin{itemize}
+  \item \textbf{Discover:} for each problem instance, freeze the base model and adapt only a small LoRA parameterization \citep{hu2022lora}.
+  \item \textbf{Distill:} convert high-reward discoveries into demonstrations and update a persistent checkpoint only through self-distillation.
+\end{itemize}
+The resulting loop --- \textit{Discover--Then--Distill} --- treats test-time LoRA adapters as ephemeral artifacts,
+while making consolidation explicit and auditable.
+
+Our primary empirical question is narrow and falsifiable:
+\emph{under compute-matched budgets, does per-instance test-time training (TTT) improve verified reward over best-of-$N$ sampling, and can consolidation preserve or improve future-task performance without destabilizing retention?}
+We intentionally evaluate a small, self-contained setup that can be rerun end-to-end and audited from logs.
+Accordingly, this paper reports neutral and negative outcomes when they occur, rather than selecting only favorable checkpoints.
+
+\paragraph{Contributions.}
+\begin{enumerate}
+  \item \textbf{End-to-end audited campaign.}
+  We provide a complete A$\rightarrow$F execution trace for \method{} with deterministic run profiles,
+  canonical JSON/JSONL artifacts, and publication figures derived from those artifacts.
+  \item \textbf{Compute-matched evaluation + focused ablations.}
+  We compare TTT against a compute-matched best-of-$N$ baseline and isolate the effects of
+  reuse, adaptive temperature, KL shaping, and objective choice.
+  \item \textbf{Gain--retention diagnosis after consolidation.}
+  We quantify how distilling discovered demonstrations via SDFT shifts held-out reward and affects retention,
+  and we report bootstrap uncertainty for the main reward deltas.
+\end{enumerate}

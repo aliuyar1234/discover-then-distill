@@ -1,0 +1,9 @@
+{
+  "tokenizer": "data/tokenizer/spm_tiny.model",
+  "input": "data/raw/val.txt",
+  "output": "data/packed/val_tiny.bin",
+  "dtype": "<class 'numpy.uint16'>",
+  "vocab_size": 64,
+  "n_tokens": 35,
+  "n_docs": 2
+}

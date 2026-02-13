@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Typography.
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage{inconsolata}
+
+% Core math/figures/tables.
+\usepackage{mathtools}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{placeins}
+
+% References.
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink,capitalise]{cleveref}
+\usepackage[numbers,sort&compress]{natbib}
+
+\input{macros}
+
+% Caption and list styling.
+\captionsetup{font=small,labelfont=bf}
+\setlist[itemize]{leftmargin=1.25em,itemsep=2pt,topsep=4pt}
+\setlist[enumerate]{leftmargin=1.35em,itemsep=2pt,topsep=4pt}
+
+% Float policy (avoid float-only pages for short papers).
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{3}
+\renewcommand{\topfraction}{0.90}
+\renewcommand{\bottomfraction}{0.70}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+
+% siunitx defaults.
+\sisetup{
+  detect-all,
+  group-separator={,},
+  group-minimum-digits=4,
+  table-number-alignment=center,
+  round-mode=places,
+  round-precision=4
+}
+
+\title{Discover--Then--Distill: Separating Test-Time Adaptation from Self-Distillation Consolidation}
+\author{Ali Uyar\\Independent Researcher}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/00_abstract}
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_background}
+\input{sections/03_method}
+\input{sections/04_experimental_setup}
+\input{sections/05_results}
+\input{sections/06_discussion}
+\input{sections/07_conclusion}
+
+\FloatBarrier
+{\small
+\input{references_manual}
+}
+
+\appendix
+\input{sections/08_appendix}
+
+\end{document}

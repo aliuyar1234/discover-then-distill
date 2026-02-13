@@ -1,0 +1,63 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+AGENTS.md
+
+# ------------------------------
+# Python caches / virtualenvs
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ------------------------------
+# Build artifacts
+# ------------------------------
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ------------------------------
+# LaTeX intermediates
+# ------------------------------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+paper/latex/main.pdf
+
+# ------------------------------
+# Generated research artifacts
+# ------------------------------
+runs/
+paper/handout/
+paper/figs/
+paper/figs_fast_v1/
+paper/figs_compute_v1/
+paper/_backup_*/
+paper/NEXT_ACTIONS.md
+paper/SESSION_LOG.md
+paper/CHANGELOG_GPTPRO_V2.md
+paper/REVIEW_SUMMARY_GPTPRO_V2.md
+paper/latex/DiscoverThenDistill_*.pdf
+
+# ------------------------------
+# Large binary checkpoints / archives
+# ------------------------------
+*.pt

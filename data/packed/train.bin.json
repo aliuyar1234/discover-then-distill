@@ -1,0 +1,9 @@
+{
+  "tokenizer": "data/tokenizer/spm32k.model",
+  "input": "data/raw/train.txt",
+  "output": "data/packed/train.bin",
+  "dtype": "<class 'numpy.uint16'>",
+  "vocab_size": 32000,
+  "n_tokens": 3499103,
+  "n_docs": 200000
+}

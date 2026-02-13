@@ -1,0 +1,24 @@
+\section{Discussion}
+
+This study is intentionally artifact-first: every reported number is traceable to included JSON/JSONL summaries, per-step logs, and orchestrator state files.
+That choice is valuable even when headline metrics are neutral, because it removes ambiguity about \emph{where} performance changes and \emph{which} compute knob was used.
+
+\paragraph{What the neutral result does (and does not) mean.}
+Under the compute-matched profile used here, the main-effect size (TTT vs base) is small relative to the sensitivity exposed by ablations.
+This suggests that, at low budgets, objective design and regularization can dominate over the mere act of adapting at test time.
+At the same time, the lack of a mean-reward gain here should not be read as a general impossibility statement; rather, it is evidence about this specific budget regime and task suite.
+
+\paragraph{Limitations.}
+The evaluation is narrow by design.
+The discovery environment is synthetic and reward is string-verifiable, not a broad real-world benchmark.
+The \profile{} setting is tuned for turnaround and auditability rather than maximal optimization depth.
+Finally, several ablations are single-seed controls (seed 0), so their rank ordering should be treated as suggestive rather than definitive.
+
+\paragraph{Implications and next steps.}
+Three practical implications follow.
+\begin{itemize}
+  \item \textbf{Operational separation is clean:} ephemeral LoRA adapters and persistent SDFT updates can be implemented and audited within a single run loop.
+  \item \textbf{Regularization matters at low compute:} KL shaping and the entropic objective materially affect outcomes under tight budgets.
+  \item \textbf{Retention and transfer can diverge:} improved retention perplexity does not automatically imply improved held-out reward.
+\end{itemize}
+The highest-leverage next experiment is a targeted budget sweep (TTT steps and SDFT steps) with additional seeds, while keeping the same compute-matched reporting and artifact-first workflow.

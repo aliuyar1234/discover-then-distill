@@ -1,0 +1,101 @@
+\section{Experimental Setup}
+
+\subsection{Data and Task Suite}
+We use a self-contained synthetic setup to avoid external dataset dependencies.
+\begin{itemize}
+  \item \textbf{LM pretraining corpus:} programmatically generated lines covering arithmetic, sorting, string reversal, and short free-text snippets.
+  \item \textbf{Discovery tasks:} JSONL instances with fields \texttt{task\_id}, \texttt{problem}, and \texttt{target}. Task families are identified by the \texttt{task\_id} prefix: \texttt{add\_...}, \texttt{sort\_...}, \texttt{rev\_...}.
+  \item \textbf{Distillation data:} a filtered set of \{prompt, demonstration\} pairs extracted from train-side discoveries.
+\end{itemize}
+The finalized profile uses \nheldout{} held-out discovery tasks and \ntrain{} train tasks.
+
+\subsection{Run Profile and Composite Campaign Accounting}
+All held-out discovery, consolidation, and plotting numbers in this paper come from the \profile{} profile (\texttt{\profileid}), which configures phases C--F.
+The full campaign is an A$\rightarrow$F composite across two run states: phases A/B were completed first, and phases C--F were resumed under a phase-C throughput tweak.
+This tweak changes runtime accounting only; A/B outputs are unchanged.
+\Cref{tab:profile} lists the C--F settings used in the reported comparisons.
+
+\begin{table}[t]
+  \centering
+  \caption{C--F run settings for \profile{} (\texttt{\profileid}) used in reported comparisons.}
+  \label{tab:profile}
+  \begin{tabular}{lc}
+    \toprule
+    Item & Value \\
+    \midrule
+    TTT steps & \tttsteps{} \\
+    Rollouts per step & \rollouts{} \\
+    Effective sample budget ($N$) & \Nbudget{} \\
+    Max new tokens & \maxnewtokens{} \\
+    SDFT steps & \sdftsteps{} \\
+    SDFT min reward filter & \sdftminreward{} \\
+    SDFT replay ratio & \sdftreplayratio{} \\
+    Regression gates (\texttt{gate\_every}) & \sdftgateevery{} (disabled) \\
+    Held-out tasks & \nheldout{} \\
+    Train tasks & \ntrain{} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Baselines and Ablations}
+The primary baseline is compute-matched best-of-$N$ sampling.
+Under \profile{}, the effective sample budget is $N=\tttsteps\times\rollouts=\Nbudget$ samples per task.
+The main TTT condition uses the entropic objective, adaptive $\beta$, archive reuse, and KL-to-base shaping.
+Ablations disable one component at a time:
+\begin{itemize}
+  \item reuse off,
+  \item adaptive-$\beta$ off,
+  \item KL shaping off,
+  \item expected-reward objective.
+\end{itemize}
+
+\subsection{Metrics and Uncertainty}
+We report:
+\begin{itemize}
+  \item \textbf{discovery metrics:} best reward and exact-match rate (reward$=1$),
+  \item \textbf{dynamics:} reward-vs-step trajectories over TTT steps,
+  \item \textbf{consolidation:} held-out reward shift after SDFT,
+  \item \textbf{retention:} perplexity on a fixed LM validation set.
+\end{itemize}
+For uncertainty, we compute percentile bootstrap intervals on mean reward deltas
+(5{,}000 resamples; resample tasks with replacement \emph{within each condition} and report the distribution of the mean-difference).
+
+\subsection{Reproducibility Artifacts}
+All stages write canonical JSON/JSONL artifacts under \texttt{runs/}.
+This kit includes per-step \texttt{metrics.jsonl} and heartbeat trackers, configuration snapshots, and the full suite summaries required to audit the reported tables and plots.
+
+\subsection{Execution Footprint}
+\Cref{fig:f4exec} summarizes wall-clock minutes and bottlenecks for the A$\rightarrow$F composite campaign.
+Phase C dominates runtime in this profile, followed by phases D and B.
+Phases A/B were completed before the C-phase speed tweak; they are included as-is in the composite accounting and are unaffected by the later C$\rightarrow$F continuation.
+
+\begin{table}[tbp]
+  \centering
+  \caption{Execution footprint summary from A$\rightarrow$F composite accounting.}
+  \label{tab:exec-footprint}
+  \begin{tabular}{lc}
+    \toprule
+    Metric & Value \\
+    \midrule
+    Phase A runtime & 1.2 min \\
+    Phase B runtime & 36.0 min \\
+    Phase C runtime & 132.7 min \\
+    Phase D runtime & 46.5 min \\
+    Phase E runtime & 8.1 min \\
+    Phase F runtime & <0.1 min \\
+    Longest step (\texttt{B1\_pretrain\_120m}) & 36.0 min \\
+    Longest train-side TTT (\texttt{D1\_ttt\_train\_seed0}) & 25.4 min \\
+    Longest held-out TTT (\texttt{C4\_ttt\_main\_seed0}) & 23.9 min \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{\figroot/F4_execution_summary.pdf}
+  \caption{\textbf{Execution diagnostics (A$\rightarrow$F composite).}
+  \textbf{Panel A:} aggregated wall-clock minutes by phase (A/B from the initial pass, C--F from the compute-matched continuation after the C-phase speed tweak).
+  \textbf{Panel B:} longest individual step runtimes (minutes), highlighting bottlenecks.
+  }
+  \label{fig:f4exec}
+\end{figure}

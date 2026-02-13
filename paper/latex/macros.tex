@@ -1,0 +1,33 @@
+% Reusable macros and notation.
+% Keep these macros evidence-aligned with the included run artifacts.
+
+% Paper naming.
+\newcommand{\method}{mHC + TTT-Discover + SDFT}
+\newcommand{\profile}{Compute-Matched v1}
+\newcommand{\profileid}{fast\_paper\_v1}
+
+% Figure root (generated artifacts).
+\newcommand{\figroot}{../figs_compute_v2}
+
+% Dataset sizes (fixed for this kit).
+\newcommand{\nheldout}{120}
+\newcommand{\ntrain}{160}
+
+% Run profile knobs used for the reported C--F comparisons.
+\newcommand{\tttsteps}{12}
+\newcommand{\rollouts}{8}
+\newcommand{\Nbudget}{96}
+\newcommand{\maxnewtokens}{16}
+\newcommand{\sdftsteps}{300}
+\newcommand{\sdftminreward}{0.95}
+\newcommand{\sdftreplayratio}{0.2}
+\newcommand{\sdftgateevery}{0}
+
+% Notation.
+\newcommand{\baseckpt}{\ensuremath{\theta_0}}
+\newcommand{\contckpt}{\ensuremath{\theta_{\mathrm{cont}}}}
+\newcommand{\loraDelta}{\ensuremath{\Delta\theta}}
+\newcommand{\EM}{\textsc{em}}
+
+% Convenience.
+\newcommand{\todo}[1]{\textbf{TODO:} #1}

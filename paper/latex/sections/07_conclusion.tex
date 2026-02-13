@@ -1,0 +1,8 @@
+\section{Conclusion}
+
+We deliver a complete, audited Discover--Then--Distill campaign (\method{}) with strict separation between per-instance LoRA adaptation and persistent self-distillation consolidation.
+Under the compute-matched profile reported here, main test-time training improves exact-match rate but does not improve mean held-out reward relative to compute-matched best-of-$N$, and post-SDFT best-of-$N$ is lower than base in mean held-out reward.
+At the same time, consolidation does not degrade the retention metric: validation perplexity improves slightly in this run.
+
+The core contribution is therefore a transparent, reproducible protocol for evaluating this class of systems under constrained compute, including a calibrated gain--retention diagnosis.
+Future work should prioritize budget sweeps and additional seeds before expanding scope to broader task distributions, while preserving the same artifact-first reporting standard.

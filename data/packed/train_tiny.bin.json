@@ -1,0 +1,9 @@
+{
+  "tokenizer": "data/tokenizer/spm_tiny.model",
+  "input": "data/raw/train.txt",
+  "output": "data/packed/train_tiny.bin",
+  "dtype": "<class 'numpy.uint16'>",
+  "vocab_size": 64,
+  "n_tokens": 124,
+  "n_docs": 5
+}

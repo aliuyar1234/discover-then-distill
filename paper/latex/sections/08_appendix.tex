@@ -1,0 +1,42 @@
+\section{Additional Details}
+
+\subsection{Claim Scope}
+This manuscript does \emph{not} claim:
+\begin{itemize}
+  \item state-of-the-art performance on broad real-world benchmarks,
+  \item that the mHC backbone alone causes test-time stability improvements,
+  \item zero-forgetting guarantees from consolidation.
+\end{itemize}
+
+\subsection{Artifact Map (This Reviewer Kit)}
+The included evidence-bearing artifacts are:
+\begin{itemize}
+  \item \textbf{Held-out suite summaries:} \path{runs/suite_fast_v1/*/summary.jsonl}
+  \item \textbf{Held-out per-step traces:} \path{runs/suite_fast_v1/*/stdout.log}
+  \item \textbf{Retention:} \path{runs/suite_fast_v1/retention_ppl.json}
+  \item \textbf{Pretrain metrics:} \path{runs/pretrain_120m_base/metrics.jsonl}
+  \item \textbf{SDFT metrics/eval:} \path{runs/sdft_from_ttt_steps300_fast_v1/metrics.jsonl} and \path{runs/sdft_from_ttt_steps300_fast_v1/sdft_eval_report.json}
+  \item \textbf{Orchestrator states:} \path{runs/orchestrator/state.json} (A/B) and \path{runs/orchestrator_fast_v1/state.json} (C--F)
+  \item \textbf{Figures:} \path{source/figs_compute_v2/} (generated from the artifacts above)
+\end{itemize}
+
+\subsection{Task-Family Shift (Post-SDFT vs Base)}
+Family-wise held-out mean reward shift (post-SDFT best-of-$N$ minus base best-of-$N$):
+\begin{itemize}
+  \item ADD: $-0.031$
+  \item SORT: $-0.026$
+  \item REV: $+0.013$
+\end{itemize}
+
+\subsection{Exact Run Endpoints}
+Final phase completion timestamps (UTC):
+\begin{itemize}
+  \item A complete: 2026-02-12T20:23:41+00:00
+  \item B complete: 2026-02-12T20:59:52+00:00
+  \item C complete: 2026-02-13T03:26:22+00:00
+  \item D3 complete: 2026-02-13T10:17:18+00:00
+  \item E1 complete: 2026-02-13T10:21:09+00:00
+  \item E2 complete: 2026-02-13T10:25:11+00:00
+  \item E3 complete: 2026-02-13T10:25:22+00:00
+  \item F complete: 2026-02-13T10:32:19+00:00
+\end{itemize}

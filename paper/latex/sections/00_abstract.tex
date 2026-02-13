@@ -1,0 +1,24 @@
+We study an end-to-end \textit{Discover--Then--Distill} loop for language models under a strict update policy:
+per-instance test-time adaptation is confined to ephemeral LoRA parameters, while persistent improvements are
+allowed only through demonstration-conditioned self-distillation (SDFT).
+The pipeline couples (i) an mHC Transformer backbone, (ii) test-time discovery via LoRA-only policy-gradient
+updates with archive reuse and KL-to-base shaping, and (iii) consolidation via reverse-KL distillation from
+high-reward discovered demonstrations.
+
+We report a fully audited A$\rightarrow$F campaign; phases A/B were completed in an initial pass and phases C--F
+were resumed under a phase-C throughput tweak that affects runtime accounting only (A/B outputs are unchanged).
+On \nheldout{} held-out discovery tasks with a compute-matched budget of $N=\Nbudget$ samples per task,
+held-out mean best reward is $0.8436$ for base best-of-$N$, $0.8396$ for main test-time training (TTT), and
+$0.8288$ for post-SDFT best-of-$N$.
+The corresponding exact-match (reward$=1$) rates are $30.8\%$, $32.9\%$, and $31.2\%$.
+Bootstrap confidence intervals for reward deltas overlap zero
+(TTT$-$Base: $-0.0040$, 95\% CI $[-0.0289, 0.0215]$;
+Post-SDFT$-$Base: $-0.0148$, 95\% CI $[-0.0400, 0.0108]$).
+
+Ablations indicate sensitivity to objective and regularization: removing KL shaping or replacing the entropic
+objective with expected-reward updates degrades held-out reward at this budget, while disabling reuse slightly
+improves reward on the same seed.
+Consolidation does not increase held-out reward in this compute-matched profile, but retention is stable with an
+improved validation perplexity (\(\Delta\)PPL $=-1.321$).
+Overall, this paper contributes an artifact-first, compute-bounded protocol and a calibrated gain--retention
+diagnosis rather than an over-claimed performance win.

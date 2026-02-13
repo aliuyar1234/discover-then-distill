@@ -1,0 +1,9 @@
+{
+  "tokenizer": "data/tokenizer/spm32k.model",
+  "input": "data/raw/val.txt",
+  "output": "data/packed/val.bin",
+  "dtype": "<class 'numpy.uint16'>",
+  "vocab_size": 32000,
+  "n_tokens": 175299,
+  "n_docs": 10000
+}
