@@ -8,7 +8,7 @@ under compute-matched budgets ($N=\Nbudget$ samples per task), mean held-out rew
 Mean reward differences are modest and uncertainty intervals overlap zero.
 Because phases A/B were completed before the C-phase throughput tweak, this separation affects runtime accounting only and not the reported held-out outcomes.
 
-\begin{table}[t]
+\begin{table}[htbp]
   \centering
   \caption{Main held-out comparison (\nheldout{} tasks; two seeds where applicable). $\Delta$ columns are measured against base best-of-$N$. Bootstrap CIs use 5{,}000 task-resamples per condition.}
   \label{tab:main-results}
@@ -23,7 +23,7 @@ Because phases A/B were completed before the C-phase throughput tweak, this sepa
   \end{tabular}
 \end{table}
 
-\begin{figure}[tbp]
+\begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{\figroot/F2_reward_vs_steps.pdf}
   \caption{\textbf{Discovery dynamics and main comparison (\profile).}
@@ -32,12 +32,13 @@ Because phases A/B were completed before the C-phase throughput tweak, this sepa
   }
   \label{fig:f2}
 \end{figure}
+\FloatBarrier
 
 \subsection{Ablation Effects}
 \Cref{tab:ablations} summarizes the focused ablation set (seed 0) relative to the main TTT seed 0.
 In this profile, disabling reuse helps slightly, while removing KL shaping or replacing the entropic objective with expected-reward updates decreases both mean reward and \EM.
 
-\begin{table}[t]
+\begin{table}[htbp]
   \centering
   \caption{Held-out ablations (seed 0), relative to main TTT seed 0.}
   \label{tab:ablations}
@@ -53,6 +54,7 @@ In this profile, disabling reuse helps slightly, while removing KL shaping or re
     \bottomrule
   \end{tabular}
 \end{table}
+\FloatBarrier
 
 \subsection{Consolidation Yield and Retention}
 Train-side discovery produces demonstrations by filtering train tasks at reward threshold \sdftminreward.
@@ -61,7 +63,7 @@ After SDFT consolidation (\sdftsteps{} steps), retention remains stable with imp
 However, held-out reward does not improve relative to base best-of-$N$ in this compute-matched profile.
 Task-level shifts are mixed: 40.8\% of held-out tasks improve under TTT relative to base, while 30.8\% improve post-SDFT relative to base; both median shifts are 0.0.
 
-\begin{figure}[tbp]
+\begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{\figroot/F3_gain_vs_retention.pdf}
   \caption{\textbf{Gain--retention diagnostics.}

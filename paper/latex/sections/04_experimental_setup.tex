@@ -15,7 +15,7 @@ The full campaign is an A$\rightarrow$F composite across two run states: phases 
 This tweak changes runtime accounting only; A/B outputs are unchanged.
 \Cref{tab:profile} lists the C--F settings used in the reported comparisons.
 
-\begin{table}[t]
+\begin{table}[htbp]
   \centering
   \caption{C--F run settings for \profile{} (\texttt{\profileid}) used in reported comparisons.}
   \label{tab:profile}
@@ -36,6 +36,7 @@ This tweak changes runtime accounting only; A/B outputs are unchanged.
     \bottomrule
   \end{tabular}
 \end{table}
+\FloatBarrier
 
 \subsection{Baselines and Ablations}
 The primary baseline is compute-matched best-of-$N$ sampling.
@@ -69,7 +70,7 @@ This kit includes per-step \texttt{metrics.jsonl} and heartbeat trackers, config
 Phase C dominates runtime in this profile, followed by phases D and B.
 Phases A/B were completed before the C-phase speed tweak; they are included as-is in the composite accounting and are unaffected by the later C$\rightarrow$F continuation.
 
-\begin{table}[tbp]
+\begin{table}[htbp]
   \centering
   \caption{Execution footprint summary from A$\rightarrow$F composite accounting.}
   \label{tab:exec-footprint}
@@ -90,7 +91,7 @@ Phases A/B were completed before the C-phase speed tweak; they are included as-i
   \end{tabular}
 \end{table}
 
-\begin{figure}[tbp]
+\begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{\figroot/F4_execution_summary.pdf}
   \caption{\textbf{Execution diagnostics (A$\rightarrow$F composite).}
@@ -99,3 +100,4 @@ Phases A/B were completed before the C-phase speed tweak; they are included as-i
   }
   \label{fig:f4exec}
 \end{figure}
+\FloatBarrier
