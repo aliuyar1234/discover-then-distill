@@ -1,4 +1,4 @@
-﻿cff-version: 1.1.0
+cff-version: 1.1.0
 title: "Discover-Then-Distill: Compute-Matched v2"
 message: "If you use this software, please cite it as below."
 type: software
@@ -7,6 +7,6 @@ authors:
     family-names: Uyar
 url: "https://github.com/aliuyar1234/discover-then-distill"
 repository-code: "https://github.com/aliuyar1234/discover-then-distill"
-version: "v2.0.5"
+version: "v2.0.6"
 date-released: "2026-02-13"
 license: "Apache-2.0"
